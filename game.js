@@ -81,7 +81,7 @@ function nextSequence() {
 //below: A function to add the buttons sound.
 function playSound(colour) {
     
-    var audio = new Audio("/sounds/" + colour + ".mp3");
+    var audio = new Audio("/sounds" + colour + ".mp3");
     audio.play();   
 };
 
